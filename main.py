@@ -48,5 +48,5 @@ def draw_circles(color_list):  # Create Hirst 10x10 Painting
 
 if __name__ == '__main__':
     all_colors = extract_colors('exampleImg.jpg')  # This is this image that colors are extracted from
-    print(f"Colors produced: {all_colors}")
+    print(f"Colors Produced: {all_colors}")
     draw_circles(all_colors)
