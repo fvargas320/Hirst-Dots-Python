@@ -1,4 +1,4 @@
-import colorgram
+import colorgram #pip install colorgram.py
 from turtle import Turtle, Screen, colormode
 import random
 
@@ -48,5 +48,5 @@ def draw_circles(color_list):  # Create Hirst 10x10 Painting
 
 if __name__ == '__main__':
     all_colors = extract_colors('img.jpeg')  # This is this image that colors are extracted from
-    print(all_colors)
+    print(f"Colors produced: {all_colors}")
     draw_circles(all_colors)
